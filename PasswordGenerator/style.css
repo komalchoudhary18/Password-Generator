@@ -1,0 +1,99 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+} 
+.passwordBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 0px 0px 9px rgb(43, 177, 226);
+    width: 450px;
+   background-color: rgb(246, 246, 158);
+    
+} 
+.passwordBox h3 {
+    margin-top: 10px;
+          color:rgb(163, 79, 19);
+          display: flex;
+          align-items: center;
+          font-size: 30px;
+          font-weight: 600;
+         
+}
+.password-value {
+    background-color: rgb(219, 246, 245);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px;
+    border-radius: 10px;
+    width: 300px;
+}
+.password-value p{
+   padding: 10px;
+   font-size: large;
+   height: 50px;
+
+}
+.password-value i {
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.option-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 10px;
+    width: 300px;
+    
+}
+.option{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2px;
+    box-shadow: 0px 0px 6px gray;
+    padding: 7px;
+
+}
+.option label {
+    
+    padding: 10px;
+    font-size: large;
+   
+}
+.option input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+}
+.button-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+#generatePassword {
+    padding: 13px;
+    font-size:large ;
+    background-color:brown;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 5px 5px 1px gray;
+}
+#generatePassword:hover{
+    cursor: pointer;
+}
+#generatePassword:active{
+    box-shadow: none;
+    transition: all 0.5s; 
+}
